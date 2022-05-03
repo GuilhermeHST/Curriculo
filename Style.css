@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&family=Ubuntu&display=swap');
+
+*{
+    font-family: 'Tapestry',cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+img{
+    object-fit: cover;
+}
+
+#NavBar{
+    background-color: rgb(255, 255, 255);
+    height: 3em;
+}
+
+#NavBar img{
+    margin-right: 30px;
+    margin-bottom: 10px;
+    float: left;
+    width: 50px;
+}
+
+#NavBar a{
+    float: right;
+    margin-top: 1%;
+    margin-right: 2%;
+    margin-bottom: 4%;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding:0em;
+}
+
+#NavBar h1{
+    font-size: 15px;
+}
+
+#Inicio{
+    background-color: #011F4B;
+    height: 27em;
+}
+
+#Inicio img{
+    margin-left: 5%;
+    margin-right: 2%;
+    margin-top: 1.2%;
+    float: left;
+    height: 400px;
+    border: 2px solid white;
+}
+
+
+#Inicio h1{
+    padding: 2%;
+}
+
+#Inicio h1, h2, h3{
+    color: aliceblue;
+}
+
+#Principal{
+    background-color: #011F4B;
+}
+
+#Dados{
+    background-color: #6497B1;
+    border: #011F4B solid 3px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#Dados h1{
+    margin-left: 1%;
+}
+
+#Dados p{
+    margin-left: 1%;
+}
+
+#Hobbies{
+    margin-left: 2%;
+    background-color: #6497B1;
+    margin-right: 2%;
+}
+
+#Hobbie{
+    width: 70%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+#Hobbie img{
+    background-color: #6497B1;
+    float: left;
+    width: 10%;
+    min-width: 100px;
+    padding-left: 10%;
+}
+
+#Hobbie p{
+    color: aliceblue;
+    font-size: 15px;
+    padding: 12%;
+}
+
+#Submit{
+    border-bottom: 15px solid #011F4B;
+    background-color:#6497B1;
+    height: 14em;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+#Submit form{
+    float: left;
+    margin-left: 2%;
+    
+}
+
+#Submit p{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+#Submit h2{
+    color: rgb(80, 0, 13);
+}
+
+footer{
+    margin-top: 2%;
+    background-color: aliceblue;
+    text-align: center;
+    height: 2em;
+}
+
+/*margin-top: 2.5%;*/
+
+/*<div class="Hobbie">
+                <img src="Img/Drawing.jpg" alt="Desenhar"/>
+                
+            </div>
+
+            <div class="Hobbie">
+                <img src="Img/Reading.jpg" alt="Ler"/>
+                
+            </div>
+
+            <div class="Hobbie">
+                <img src="Img/Nature.jpg" alt="Natureza"/>
+                
+            </div>
+
+            <div class="Hobbie">
+                <img src="Img/Writing.jpg" alt="Escrever"/>
+                
+            </div>*/
